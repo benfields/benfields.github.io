@@ -10,7 +10,7 @@
  Copyright (c) 2015, Ben Fields. All rights Reserved.
  This page is made available through the terms and conditions provided in the LICENSE file. We use GPL v3.
  **/
-s
+
 var contentBoxApp = angular.module('contentBoxApp', []);
 var gridCtrl = contentBoxApp.controller('GridCtrl', function($scope) {
     var regex;

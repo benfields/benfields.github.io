@@ -47,8 +47,10 @@
                     <h1 class="content-box-header">
                         {{gridItem.headerText}}
                     </h1>
+                    <div class="tag">{{gridItem.techType}}</div>
+                    <div class="licensetag" style="{{gridItem.licenseStyle}}">{{gridItem.license}}</div>
                     <p class="content-box-blurb">
-                        {{ gridItem.blurbText }}
+                        {{gridItem.blurbText}}
                     </p>
                     <a class="readmore-link" href="{{gridItem.projectLink}}" ng-click="toggleBlurb($event)" style="{{gridItem.linkStyle}}">View Project &rarr;</a>
                 </div>

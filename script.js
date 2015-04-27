@@ -8,9 +8,9 @@
 
  Created by Ben Fields on Sunday, April 26, 2015 (4/26/15).
  Copyright (c) 2015, Ben Fields. All rights Reserved.
- This page is made available through the terms and conditions provided in the LICENSE file. We use GPL v3.
+ This page is made available through the terms and conditions provided in the LICENSE file. We use GPL v2.
  **/
-
+s
 var contentBoxApp = angular.module('contentBoxApp', []);
 var gridCtrl = contentBoxApp.controller('GridCtrl', function($scope) {
     var regex;
@@ -130,6 +130,14 @@ var gridCtrl = contentBoxApp.controller('GridCtrl', function($scope) {
         projectLink: 'https://github.com/benfields/',
         meta: ', copyright, ben, benjamin, fields, license, github, legal, privacy, info',
         licenseStyle: 'display: none;'
+    }, {
+        img: '',
+        headerText: 'benfields.github.io',
+        blurbText: '',
+        projectLink: 'https://github.com/benfields/benfields.github.io/',
+        techType: 'Web',
+        meta: ', ben, fields, github, io, search, angular, hover, json, animate, animation, benfields, github.io, benfields.github.io, GPL, GPL v2, v2',
+        license: 'GPL v2'
     }];
     $scope.search = '';
     $scope.$watch('search', function(value) {

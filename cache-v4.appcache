@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 2015-04-27:v3
+# 2015-04-27:v4
 # note: the current way i'm doing this feels a little resource greedy and needs revision.
 
 CACHE:
@@ -23,4 +23,3 @@ NETWORK:
 
 FALLBACK:
 / /offline.html
-/index.html /offline.html

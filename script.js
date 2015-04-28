@@ -6,7 +6,7 @@
  | |_) |  __/ | | | | |    | |  __/ | (_| \__ \
  |____/ \___|_| |_| |_|    |_|\___|_|\__,_|___/
 
- Created by Ben Fields on Sunday, April 26, 2015 (4/26/15).
+ Created by Ben Fields on Sunday, April 27, 2015 (4/27/15).
  Copyright (c) 2015, Ben Fields. All rights Reserved.
  This page is made available through the terms and conditions provided in the LICENSE file. We use GPL v2.
  **/
@@ -131,7 +131,17 @@ var gridCtrl = contentBoxApp.controller('GridCtrl', function($scope) {
         license: 'GPL v2'
     }, {
         img: '',
+        headerText: 'A Dark Room',
+        icon: 'fa fa-code-fork',
+        blurbText: '',
+        projectLink: 'https://github.com/benfields/adarkroom/',
+        techType: 'Web',
+        meta: ', room, dark, a, a dark, dark room, a dark room, js, game, browser, play, fun, web, mpl, v2, mpl v2, mozilla, fork, forked',
+        license: 'MPL v2',
+    }, {
+        img: '',
         headerText: 'Copyright 2015, Ben Fields. All rights reserved.',
+        icon: 'fa fa-copyright',
         blurbText: 'For the most up-to-date list of projects, please visit my GitHub profile.',
         style: 'background-color:#43434b; color: #ffffff;',
         linkStyle: 'display:none;',

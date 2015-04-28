@@ -5,7 +5,7 @@
  / /_/ /  __/ / / /  / __/ / /  __/ / /_/ (__  )
 /_____/\___/_/ /_/  /_/   /_/\___/_/\__,_/____/
 
-Created by Ben Fields on Sunday, April 26, 2015 (4/26/15).
+Created by Ben Fields on Sunday, April 27, 2015 (4/27/15).
 Copyright (c) 2015, Ben Fields. All rights Reserved.
 This page is made available through the terms and conditions provided in the LICENSE file. We use GPL v2.
 **/
@@ -234,4 +234,8 @@ a:hover {
     display: inline-block;
     padding: 3px 8px;
     margin-top: 1em;
+}
+
+.icon {
+    color: #8b8b98;
 }

@@ -1,16 +1,3 @@
-/**
- ____               ______ _      _     _
- |  _ \             |  ____(_)    | |   | |
- | |_) | ___ _ __   | |__   _  ___| | __| |___
- |  _ < / _ \ '_ \  |  __| | |/ _ \ |/ _` / __|
- | |_) |  __/ | | | | |    | |  __/ | (_| \__ \
- |____/ \___|_| |_| |_|    |_|\___|_|\__,_|___/
-
- Created by Ben Fields on Sunday, April 27, 2015 (4/27/15).
- Copyright (c) 2015, Ben Fields. All rights Reserved.
- This page is made available through the terms and conditions provided in the LICENSE file. We use GPL v2.
- **/
-
 var contentBoxApp = angular.module('contentBoxApp', []);
 var gridCtrl = contentBoxApp.controller('GridCtrl', function($scope) {
     var regex;

@@ -1,15 +1,28 @@
 CACHE MANIFEST
-# 2015-04-27:v1
+# 2015-04-27:v3
+# note: the current way i'm doing this feels a little resource greedy and needs revision.
 
 CACHE:
+
+# html files
 /index.html
+/offline.html
+
+# scripts
 /js/script.js
+/min/jquery.min.js
+/min/snackbar.min.js
+
+# stylesheets
 /min/style.min.css
 /min/normalize.min.css
 /min/angular.min.css
+/min/snackbar.min.css
+/min/material.min.css
+http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css
 
 NETWORK:
 *
 
 FALLBACK:
-/ /index.html
+/ /offline.html

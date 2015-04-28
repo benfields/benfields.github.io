@@ -125,6 +125,9 @@ a:hover {
 }
 .grid-item {
     -webkit-transition-duration: 300ms;
+    -moz-transition-duration: 300ms;
+    -o-transition-duration: 300ms;
+    transition-duration: 300ms;
     position: relative;
     display: inline-block;
     margin: 1rem;

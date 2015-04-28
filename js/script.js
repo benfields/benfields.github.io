@@ -98,7 +98,6 @@ var gridCtrl = contentBoxApp.controller('GridCtrl', function($scope) {
         license: 'MPL v2',
     }, {
         projectTitle: 'Copyright 2015, Ben Fields. All rights reserved.',
-        icon: 'fa fa-copyright',
         blurbText: 'For the most up-to-date list of projects, please visit my GitHub profile.',
         style: 'background-color:#43434b; color: #ffffff;',
         linkStyle: 'display:none;',

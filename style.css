@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:500);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
 body * {
     font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -21,11 +22,11 @@ body:before {
     left: 0px;
 }
 ::selection {
-    background: #cf4a5c; /* Safari, Chrome, IE, Opera, & More */
+    background: #cf4a5c;
     color: #ffffff;
 }
 ::-moz-selection {
-    background: #cf4a5c; /* Firefox */
+    background: #cf4a5c;
     color: #ffffff;
 }
 a {
@@ -101,7 +102,7 @@ a:hover {
     color: rgba(255, 255, 255, 0.35);
 }
 .logo {
-    font-family: "Raleway", "Oswald", Helvetica, Arial, sans-serif;
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
     font-size: 1em;
     letter-spacing: 0.15rem;
 }

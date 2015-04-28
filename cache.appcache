@@ -3,16 +3,13 @@ CACHE MANIFEST
 # note: the current way i'm doing this feels a little resource greedy and needs revision.
 
 CACHE:
-
 # html files
-/index.html
 /offline.html
-
+/index.html
 # scripts
 /js/script.js
 /min/jquery.min.js
 /min/snackbar.min.js
-
 # stylesheets
 /min/style.min.css
 /min/normalize.min.css
@@ -26,3 +23,4 @@ NETWORK:
 
 FALLBACK:
 / /offline.html
+/index.html /offline.html

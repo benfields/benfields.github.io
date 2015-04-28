@@ -4,7 +4,6 @@ body * {
     -webkit-font-smoothing: antialiased;
     line-height: 1.4rem;
 }
-
 body {
     background: #efefef;
     color: #3a3a3a;
@@ -21,7 +20,6 @@ body:before {
     top: 0px;
     left: 0px;
 }
-
 ::selection {
     background: #cf4a5c; /* Safari, Chrome, IE, Opera, & More */
     color: #ffffff;
@@ -30,7 +28,6 @@ body:before {
     background: #cf4a5c; /* Firefox */
     color: #ffffff;
 }
-
 a {
     color: #cf4a5c;
     text-decoration: none;
@@ -43,13 +40,11 @@ a:hover {
     linear-gradient: ease-in-out 0.6s;
     opacity: 1;
 }
-
 .container {
     width: 90%;
     max-width: 1280px;
     margin: 0px auto;
 }
-
 .toolbar {
     position: fixed;
     z-index: 2;
@@ -62,7 +57,6 @@ a:hover {
     color: white;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
 }
-
 .toolbar-section {
     position: relative;
     display: inline-block;
@@ -74,21 +68,11 @@ a:hover {
 .toolbar-section:last-child {
     width: 35%;
 }
-@media (max-width: 480px) {
-    .toolbar-section {
-        display: block;
-    }
-    .toolbar-section:last-child {
-        display: none;
-    }
-}
-
 .toolbar-item {
     display: block;
     padding: 1rem 1rem 1rem 1rem;
     white-space: nowrap;
 }
-
 .form-field {
     text-align: right;
 }
@@ -116,7 +100,6 @@ a:hover {
 .form-field input:-ms-input-placeholder {
     color: rgba(255, 255, 255, 0.35);
 }
-
 .logo {
     font-family: "Raleway", "Oswald", Helvetica, Arial, sans-serif;
     font-size: 1em;
@@ -126,7 +109,6 @@ a:hover {
     font-size: 1.2em;
     margin-right: 6px;
 }
-
 .dynamic-grid {
     position: relative;
     z-index: 1;
@@ -140,7 +122,6 @@ a:hover {
 .dynamic-grid.container {
     padding-top: 6rem;
 }
-
 .grid-item {
     -webkit-transition-duration: 300ms;
     position: relative;
@@ -156,7 +137,6 @@ a:hover {
     -webkit-transition-duration: 300ms;
     box-shadow: 3px 3px 19px #888888;
 }
-
 .content-box {
     border: 0px solid #e6e6e6;
     background-color: white;
@@ -171,18 +151,15 @@ a:hover {
     left: 0px;
     top: 0px;
 }
-
 .content-box-thumb {
     display: block;
     max-width: 100%;
     height: auto;
 }
-
 .content-box-header {
     font-size: 1rem;
     margin: 0.75rem 0rem 0rem 0rem;
 }
-
 .content-box-blurb {
     font-size: 0.85rem;
     display: block;
@@ -194,7 +171,6 @@ a:hover {
     overflow: hidden;
     text-overflow: ellipsis;
 }
-
 .readmore-link {
     display: block;
     margin: 5px 5px 0px 5px;
@@ -223,7 +199,14 @@ a:hover {
     padding: 3px 8px;
     margin-top: 1em;
 }
-
 .icon {
     color: #8b8b98;
+}
+@media (max-width: 480px) {
+    .toolbar-section {
+        display: block;
+    }
+    .toolbar-section:last-child {
+        display: none;
+    }
 }
